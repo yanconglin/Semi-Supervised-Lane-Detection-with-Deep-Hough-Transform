@@ -45,7 +45,6 @@ This repository is built on top of [ERFNet-CULane-PyTorch](https://github.com/ca
     ```Shell
     cd $ERFNet_ROOT/pretrained
     ```
-   The pre-trained model has already been there.
 2. Load the checkpoint from step 1, and train the ERFNet_HT model on the full dataset (1% labeled + 99% unlabeled), in a semi-supervised manner.
     ```Shell
     cd $ERFNet_ROOT
