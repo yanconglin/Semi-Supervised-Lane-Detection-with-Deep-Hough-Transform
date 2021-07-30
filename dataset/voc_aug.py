@@ -7,8 +7,7 @@ import random
 import cv2
 
 class VOCAugDataSet(Dataset):
-    def __init__(self, dataset_path='/tudelft.net/staff-bulk/ewi/insy/VisionLab/yanconglin/dataset/lanes/CULane/list', data_list='train_gt', transform=None, mode='train'):
-    # def __init__(self, dataset_path='/home/yclin/cluster/dataset/lanes/CULane/list', data_list='train_gt', transform=None, mode='train'):
+    def __init__(self, dataset_path='dataset/lanes/CULane/list', data_list='train_gt', transform=None, mode='train'):
         print('dataset_path, data_list', dataset_path, data_list)
 
         # line: start from 1, not 0
