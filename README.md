@@ -8,7 +8,7 @@ This repository is built on top of [ERFNet-CULane-PyTorch](https://github.com/ca
 ### Before Start
 
 1. Please follow [list](./list) to put CULane in the desired folder. We'll call the directory that you cloned ERFNet-CULane-PyTorch as `$ERFNet_ROOT`.
-2. Please configure the path to dataset in the [dataloader](    def __init__(self, dataset_path='CULane/list', data_list='train_gt', transform=None, mode='train'):). 
+2. Please configure the path to dataset in the [dataloader](https://github.com/yanconglin/Semi-Supervised-Lane-Detection-with-Deep-Hough-Transform/blob/a5562e0c308a7c0e30d360bc380bdfc3309b032d/dataset/voc_aug.py#L10). 
 
 ### Testing
 1. Download our trained models to `./trained`
