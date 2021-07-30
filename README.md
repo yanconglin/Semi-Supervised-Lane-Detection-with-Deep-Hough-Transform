@@ -41,7 +41,7 @@ This repository is built on top of [ERFNet-CULane-PyTorch](https://github.com/ca
     By now, you should be able to reproduce the result.
     
 ### Training
-1. Train the ERFNet_HT on the 1% subset in a fully supervised manner, or you can simply download the checkpoint from there.
+1. Train the ERFNet_HT on the 1% subset in a fully supervised manner, or you can simply download the checkpoint "supervised_erfnet_model_best_1.pth.tar" from [there](https://surfdrive.surf.nl/files/index.php/s/r45otmIzGTQkWLu).
     ```Shell
     cd $ERFNet_ROOT/pretrained
     ```
