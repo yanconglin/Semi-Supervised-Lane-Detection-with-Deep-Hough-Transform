@@ -1,5 +1,5 @@
-## Source code for paper "Semi-Supervised Lane Detection with Deep Hough Transform", ICIP2021.
-This repository is built on top of this [repository](https://github.com/cardwing/Codes-for-Lane-Detection/tree/master/ERFNet-CULane-PyTorch). Many thanks to the authors for shareing the code. 
+## Source code for "Semi-Supervised Lane Detection with Deep Hough Transform", ICIP2021.
+This repository is built on top of this [repository](https://github.com/cardwing/Codes-for-Lane-Detection/tree/master/ERFNet-CULane-PyTorch). Many thanks to the authors for sharing the code. 
 ### Requirements
 - [PyTorch 1.3.0](https://pytorch.org/get-started/previous-versions/).
 - Matlab (for tools/prob2lines), version R2014a or later.
