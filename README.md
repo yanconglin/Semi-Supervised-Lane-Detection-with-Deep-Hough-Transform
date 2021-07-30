@@ -41,12 +41,12 @@ Please change the path to your dataset in the dataloader.
     By now, you should be able to reproduce the result (F1-measure: 73.1).
     
 ### Training
-1. Download the pre-trained model
+1. Download the pre-trained model, which is trained on the 1% subset in a fully supervised manner.
     ```Shell
     cd $ERFNet_ROOT/pretrained
     ```
    The pre-trained model has already been there.
-2. Training ERFNet model
+2. Training ERFNet model, on the full dataset (1% labeled + 99% unlabeled).
     ```Shell
     cd $ERFNet_ROOT
     sh ./train_erfnet.sh
