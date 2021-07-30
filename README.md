@@ -8,7 +8,7 @@ This repository is built on top of [ERFNet-CULane-PyTorch](https://github.com/ca
 ### Before Start
 
 1. Please follow [ERFNet-CULane-PyTorch](https://github.com/cardwing/Codes-for-Lane-Detection/tree/master/ERFNet-CULane-PyTorch) to prepare the CULane dataset.
-2. Please configure the path to dataset in the [dataloader](https://github.com/yanconglin/Semi-Supervised-Lane-Detection-with-Deep-Hough-Transform/blob/a5562e0c308a7c0e30d360bc380bdfc3309b032d/dataset/voc_aug.py#L10). 
+2. Please set the dataset path in the [dataloader](https://github.com/yanconglin/Semi-Supervised-Lane-Detection-with-Deep-Hough-Transform/blob/a5562e0c308a7c0e30d360bc380bdfc3309b032d/dataset/voc_aug.py#L10). 
 
 ### Testing
 1. Download our trained models to `./trained`
