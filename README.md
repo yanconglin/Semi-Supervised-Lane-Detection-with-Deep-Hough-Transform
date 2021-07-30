@@ -8,7 +8,7 @@ This repository is built on top of [ERFNet-CULane-PyTorch](https://github.com/ca
 ### Before Start
 
 1. Please follow [list](./list) to put CULane in the desired folder. We'll call the directory that you cloned ERFNet-CULane-PyTorch as `$ERFNet_ROOT`.
-2. Please configure the path to dataset in the dataloader. 
+2. Please configure the path to dataset in the [dataloader](    def __init__(self, dataset_path='CULane/list', data_list='train_gt', transform=None, mode='train'):). 
 
 ### Testing
 1. Download our trained models to `./trained`
