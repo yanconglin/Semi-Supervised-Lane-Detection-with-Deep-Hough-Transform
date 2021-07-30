@@ -1,12 +1,13 @@
 
 ### Requirements
-- [PyTorch 0.3.0](https://pytorch.org/get-started/previous-versions/).
+- [PyTorch 1.3.0](https://pytorch.org/get-started/previous-versions/).
 - Matlab (for tools/prob2lines), version R2014a or later.
 - Opencv (for tools/lane_evaluation), version 2.4.8 (later 2.4.x should also work).
 
 ### Before Start
 
 Please follow [list](./list) to put CULane in the desired folder. We'll call the directory that you cloned ERFNet-CULane-PyTorch as `$ERFNet_ROOT`.
+Please change the path to your dataset in the dataloader. 
 
 ### Testing
 1. Download our trained models to `./trained`
