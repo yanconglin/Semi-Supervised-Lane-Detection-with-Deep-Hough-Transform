@@ -1,4 +1,4 @@
-## Source code for "Semi-Supervised Lane Detection with Deep Hough Transform", ICIP2021.
+## Source code for [Semi-Supervised Lane Detection with Deep Hough Transform](https://arxiv.org/abs/2106.05094), ICIP2021.
 This repository is built on top of this [repository](https://github.com/cardwing/Codes-for-Lane-Detection/tree/master/ERFNet-CULane-PyTorch). Many thanks to the authors for sharing the code. 
 ### Requirements
 - [PyTorch 1.3.0](https://pytorch.org/get-started/previous-versions/).
