@@ -11,7 +11,7 @@ This repository is built on top of [ERFNet-CULane-PyTorch](https://github.com/ca
 2. Please set the dataset path in the [dataloader](https://github.com/yanconglin/Semi-Supervised-Lane-Detection-with-Deep-Hough-Transform/blob/a5562e0c308a7c0e30d360bc380bdfc3309b032d/dataset/voc_aug.py#L10). 
 
 ### Testing
-1. Download the well-trained model (on 1% labeled+99% unlabeled set) [semi_erfnet_model_best_1_99.pth.tar](https://surfdrive.surf.nl/files/index.php/s/r45otmIzGTQkWLu) to `./trained`
+1. Download the well-trained model (ERFNet-HT+L_{HT}, on 1% labeled+99% unlabeled set) [semi_erfnet_model_best_1_99.pth.tar](https://surfdrive.surf.nl/files/index.php/s/r45otmIzGTQkWLu) to `./trained`
     ```Shell
     cd $ERFNet_ROOT/trained
     ```
