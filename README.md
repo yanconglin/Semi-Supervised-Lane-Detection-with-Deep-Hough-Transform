@@ -11,11 +11,7 @@ This repository is built on top of [ERFNet-CULane-PyTorch](https://github.com/ca
 2. Please set the dataset path in the [dataloader](https://github.com/yanconglin/Semi-Supervised-Lane-Detection-with-Deep-Hough-Transform/blob/a5562e0c308a7c0e30d360bc380bdfc3309b032d/dataset/voc_aug.py#L10). 
 
 ### Testing
-The model in repo is the 
-```math 
-SE = ERFNet-HT+L_{HT}.
-```
-
+The model in repo is the ERFNet-HT+L_{HT}.
 1. Download the well-trained model (on 1% labeled+99% unlabeled set) [semi_erfnet_model_best_1_99.pth.tar](https://surfdrive.surf.nl/files/index.php/s/r45otmIzGTQkWLu) to `./trained`
     ```Shell
     cd $ERFNet_ROOT/trained
@@ -46,6 +42,7 @@ SE = ERFNet-HT+L_{HT}.
     By now, you should be able to reproduce the result.
     
 ### Training
+The model in repo is the ERFNet-HT+L_{HT}.
 1. Train the ERFNet_HT on the 1% subset in a fully supervised manner, or you can simply download the checkpoint [supervised_erfnet_model_best_1.pth.tar](https://surfdrive.surf.nl/files/index.php/s/r45otmIzGTQkWLu).
     ```Shell
     cd $ERFNet_ROOT/pretrained
