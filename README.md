@@ -54,3 +54,14 @@ Please change the path to your dataset in the dataloader.
     The training process should start and trained models would be saved in `trained` by default.  
     Then you can test the trained model following the Testing steps above. If your model position or name is changed, remember to set them to yours accordingly.
 
+### Cite Deep Hough-Transform Line Priors
+
+If you find our paper useful in your research, please consider citing:
+```bash
+@article{lin2021semi,
+  title={Semi-supervised lane detection with Deep Hough Transform},
+  author={Lin, Yancong and Pintea, Silvia L and van Gemert, Jan C},
+  booktitle={ICIP 2021},
+  year={2021}
+}
+```
