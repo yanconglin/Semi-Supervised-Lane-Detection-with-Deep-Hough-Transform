@@ -38,7 +38,7 @@ Please change the path to your dataset in the dataloader.
     sh Run.sh   # it may take over 30min to evaluate
     ```
     Note: `Run.sh` evaluate each scenario separately while `run.sh` evaluate the whole. You may use `calTotal.m` to calculate overall performance from all senarios.  
-    By now, you should be able to reproduce the result (F1-measure: 73.1).
+    By now, you should be able to reproduce the result.
     
 ### Training
 1. Train the ERFNet_HT on the 1% subset in a fully supervised manner, or you can simply download the checkpoint from there.
