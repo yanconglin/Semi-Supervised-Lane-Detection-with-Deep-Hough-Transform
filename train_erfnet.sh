@@ -1,7 +1,7 @@
 python3 -u train_erfnet.py CULane ERFNet train_gt val_gt \
                         --lr 0.01 \
                         --gpus 0 \
-                        --resume /supervised_erfnet_model_best_1.pth.tar \
+                        --resume pretrained/supervised_erfnet_model_best_1.pth.tar \
                         -j 4 \
                         -b 14 \
                         --epochs 12 \
