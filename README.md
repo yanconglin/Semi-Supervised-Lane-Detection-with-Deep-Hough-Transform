@@ -55,7 +55,7 @@ The model in repo is the ERFNet-HT+L_{HT}, which performs the best in the 1% lab
     The training process should start and trained models would be saved in `trained` by default.  
     Then you can test the trained model following the Testing steps above. If your model position or name is changed, remember to set them to yours accordingly.
 
-### Cite Deep Hough-Transform Line Priors
+### Cite Semi-Supervised Lane Detection with Deep Hough Transform
 
 If you find our paper useful in your research, please consider citing:
 ```bash
