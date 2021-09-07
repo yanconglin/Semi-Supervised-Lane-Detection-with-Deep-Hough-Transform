@@ -62,7 +62,7 @@ If you find our paper useful in your research, please consider citing:
 @article{lin2021semi,
   title={Semi-supervised lane detection with Deep Hough Transform},
   author={Lin, Yancong and Pintea, Silvia L and van Gemert, Jan C},
-  booktitle={ICIP 2021},
+  booktitle={International Conference on Image Processing},
   year={2021}
 }
 ```
