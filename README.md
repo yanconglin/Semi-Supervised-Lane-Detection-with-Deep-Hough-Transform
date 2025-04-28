@@ -43,7 +43,7 @@ The model in repo is the ERFNet-HT+L_{HT}, which performs the best in the 1% lab
     
 ### Training
 The model in repo is the ERFNet-HT+L_{HT}, which performs the best in the 1% labeled+99% unlabeled setting.
-1. Train the ERFNet_HT on the 1% subset in a fully supervised manner, or you can simply download the checkpoint [supervised_erfnet_model_best_1.pth.tar](https://surfdrive.surf.nl/files/index.php/s/r45otmIzGTQkWLu).
+1. Train the ERFNet_HT on the 1% subset in a fully supervised manner, or you can simply download the checkpoint [supervised_erfnet_model_best_1.pth.tar](https://drive.google.com/drive/folders/1iDskCq2x73mCLRoQZ2df2jugsh6_cx_E?usp=sharing).
     ```Shell
     cd $ERFNet_ROOT/pretrained
     ```
